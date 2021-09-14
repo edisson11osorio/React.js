@@ -5,22 +5,22 @@ import circlesImg from "../images/circles.png"
 
 class Card extends React.Component {
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            Image: 'https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/bulbasaur.png?alt=media&token=567caf19-af47-414e-a9d4-3854ab24c7dc'
-        }
+    // constructor(props) {
+    //     super(props)
+    //     this.state = {
+    //         Image: 'https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/bulbasaur.png?alt=media&token=567caf19-af47-414e-a9d4-3854ab24c7dc'
+    //     }
 
-    }
+    // }
 
-    componentDidMount() {
-        setTimeout(() => {
-            this.setState({
-                Image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAwytEEHSUCGKTjSzAtBTHGOEqUJaFLzQaQ&usqp=CAU'
-            })
+    // componentDidMount() {
+    //     setTimeout(() => {
+    //         this.setState({
+    //             Image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAwytEEHSUCGKTjSzAtBTHGOEqUJaFLzQaQ&usqp=CAU'
+    //         })
 
-        }, 5000)
-    }
+    //     }, 5000)
+    // }
     render() {
         const { title, description, leftcolor, rightcolor } = this.props
         return (
