@@ -3,6 +3,7 @@ import exerciseImg from "../images/exercise.png"
 import "./styles/Card.css"
 import circlesImg from "../images/circles.png"
 
+
 class Card extends React.Component {
 
     render() {
