@@ -40,7 +40,6 @@ class Exercises extends React.Component {
                 <ExerciseList
                     exercises={this.state.data}
                 />
-              
             </div>
         )
     }
