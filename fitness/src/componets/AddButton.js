@@ -9,11 +9,4 @@ const AddButton = () => (
     </Link>
 )
 
-// function AddButton(props){
-//         return (
-//             <Link to="/exercise/new">
-//                 <img src={Imagen} className="Fitness-Add" />
-//             </Link>
-//         )
-//     }
 export default AddButton
